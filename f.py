@@ -1,0 +1,6 @@
+f=open("exception.py","a")
+f.write("i am python programmer\n")
+f.write("hi")
+f.close()
+f=open("exception.py","r")
+print(f.read(3))
